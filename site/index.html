@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <!--helps base unit scale for mobile-->
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <title>Tree Surveyor</title>
+
+        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.2/dist/leaflet.css" integrity="sha256-sA+zWATbFveLLNqWO2gtiw3HL/lh1giY/Inf1BJ0z14=" crossorigin=""/>
+        <link rel="stylesheet" href="styles.css">
+       
+    </head>
+    <body>
+        <div id ="map"></div>
+        <!--<div id="load-overlay" class="load-overlay">Loading...</div>-->
+
+        <div id="tree-info" class = "tree-info">
+            <h2 id ="tree-name"></h2>
+            <textarea id = "tree-notes" class = "tree-notes" placeholder="Notes..."></textarea>
+            <button id ="save-tree-notes" class = "save-tree-notes">Save</button>
+        </div>
+
+        <script type ="module" src = "js/main.js"></script>
+        <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js" integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg=" crossorigin=""></script>
+    </body>
+
+</html>
